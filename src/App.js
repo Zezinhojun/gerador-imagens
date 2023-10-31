@@ -1,23 +1,30 @@
-import logo from './logo.svg';
+import { useEffect, useState } from 'react';
 import './App.css';
+import { CardsList } from './components/CardsList';
 
 function App() {
+
+  const [imageInfo, setImageInfo] = useState([])
+  const numsCard = 4
+
+  useEffect(() => {
+    fetch("https://picsum.photos/v2/list")
+      .then(res => res.json())
+      .then((data) => setImageInfo(data)
+      )
+  }, [])
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container-fluid">
+      <div className="">
+        <h1 className="diplay1 text-center my-5">Gerador de Imagens aleatórias</h1>
+      </div>
+      <CardsList
+        numsCard={numsCard}
+        imageInfo={imageInfo}
+        setImageInfo={setImageInfo}
+      />
     </div>
   );
 }
