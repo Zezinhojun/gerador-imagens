@@ -1,12 +1,12 @@
 # Gerador de Imagens Aleatórias com React e Bootstrap
 
-![Imagem do Projeto](link-para-uma-imagem-do-projeto.png)
+![Imagem do Projeto](https://github.com/Zezinhojun/gerador-imagens/blob/7a421406e710756677863984d9a5ca1ba0cec059/fotodoprojeto.jpg)
 
 Este é um projeto simples de Gerador de Imagens Aleatórias construído com React, Bootstrap e integração com uma API externa que fornece imagens de alta qualidade. Com esta aplicação, você pode gerar imagens aleatórias, editar o nome do autor das imagens e fazer o download das imagens geradas.
 
 ## Demonstração
 
-Inclua imagens ou GIFs que demonstram o funcionamento da aplicação. 
+![Video do Projeto](https://github.com/Zezinhojun/gerador-imagens/blob/7a421406e710756677863984d9a5ca1ba0cec059/gerador-imagens-aleatorias.gif)
 
 ## Tecnologias Utilizadas
 
