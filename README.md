@@ -23,4 +23,5 @@ Este é um projeto simples de Gerador de Imagens Aleatórias construído com Rea
 
 1. Clone o repositório para o seu computador:
    ```bash
+ git clone git@github.com:Zezinhojun/gerador-imagens.git
 
